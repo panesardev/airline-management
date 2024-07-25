@@ -2,7 +2,10 @@
   "name": "@airline-management/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build:website": "nx build website",
+    "build:server": "nx build website"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~18.1.0",
